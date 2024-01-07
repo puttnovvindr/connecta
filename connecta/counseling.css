@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* container-1 */
+.container-1{
+    /* background-color: aqua; */
+    width: 87%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #021934;
+}
+
+.container-1 .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-1 .nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.container-1 .nav a{
+    text-decoration: none;
+    color: #021934;
+}
+
+.container-1 .nav button{
+    width: 110px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background-color: #F72585;
+}
+
+.container-1 .nav button a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* container-2 */
+.container-2{
+    background-color: #021934;
+    width: 87%;
+    color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.container-2 .arrow{
+    display: flex;
+    gap: 4px;
+}
+
+.container-2 .arrow a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-2 h1{
+    color: #fff;
+    width: 60%;
+    font-size: 45px;
+}
+
+.container-2 .star{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    gap: 10px;
+}
+
+.container-2 .mark{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.container-2 .mark img{
+    width: 70px;
+    border-radius: 50%;
+    
+}
+.container-2 .button{
+    display: flex;
+    gap: 20px;
+}
+
+.container-2 .button #button-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #F72585;
+}
+
+.container-2 .button #button-1 a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.container-2 .button #button-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    width: 170px;
+}
+
+.container-2 .button #button-2 a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #F72585;
+}
+
+
+.container-3{
+    /* background-color: antiquewhite; */
+    width: 87%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    box-sizing: border-box;
+    color: #021934;
+}
+
+.container-3 .explanation{
+    /* background-color: #ff84bc; */
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.container-3 .explanation p{
+    text-align: justify;
+}
+
+.container-3 .objective{
+    box-sizing: border-box;
+    padding: 0px 50px;
+}
+
+.container-3 .objective .div{
+    box-sizing: border-box;
+    padding: 50px 50px;
+    background-color: #FFF5F9;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border-radius: 18px;
+    margin: 20px 0;
+}
+
+  .container-3 .objective .div-left,
+  .container-3 .objective .div-right{
+      flex: 1; /* Biarkan kedua bagian fleksibel agar bisa menyesuaikan ukuran */
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+  }
+
+  .container-3 .objective .div-left p:nth-child(-n+4){
+      order: -1; 
+  }
+
+  .container-3 .objective .div-left p,
+  .container-3 .objective .div-right p{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #021934;
+  }
+
+  .container-3 .kanan .vc{
+    background-color: #fff;
+    height: auto;
+    padding: 20px 20px;
+    border-radius: 18px;
+    margin-top: 45px;
+    border: solid;
+    border-width: 1px;
+    border-color: #CCCCCC;
+  }
+
+  .container-3 .kanan .vc #vc{
+    width: 300px;
+  }
+
+  .container-3 .kanan .vc .round{
+    position: absolute;
+    width: 300px;
+    height: 213px;
+    /* background-color: #F72585; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-3 .kanan .price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+
+  .container-3 .kanan .price p{
+    text-decoration: line-through;
+  }
+
+  .container-3 .kanan #separator{
+    width: 290px;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+
+  .container-3 .kanan .bawah{
+    display: flex;
+    padding: 15px 0px;
+  }
+
+  .container-3 .kanan .bawah img{
+    width: 25px;
+  }
+
+  .container-3 .kanan .bawah .left p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 20px 0px;
+  }
+
+  .container-3 .kanan .bawah .right h5{
+    background-color: #F72585;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+
+  .container-3 .kanan .bawah .right p{
+    padding: 20px 0px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+
+  .container-3 .button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .container-3 .button button{
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .container-3 .button button a{
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .container-3 .button #button-1{
+    background-color: #F72585;
+  }
+  
+  .container-3 .button #button-1 a{
+    color: #fff;
+  }
+  
+  .container-3 .button #button-2{
+      background-color: #fff;
+      border: solid;
+      border-color: #F72585;
+    }
+    
+.container-3 .button #button-2 a{
+  color: #F72585;
+}
+
+/* container-4 */
+
+.container-4{
+    /* background-color: #ffa5cd; */
+    width: 87%;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    color: #021934;
+}
+
+.container-4 .requirement{
+    background-color: #FFF5F9;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 52%;
+    border-radius: 16px;
+    margin: 10px 0px;
+}
+
+.container-4 .requirement p{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.container-4 #h1{
+    margin-top: 30px;
+    /* background-color: #F72585; */
+}
+.container-4 .mentor{
+    display: flex;
+    gap: 20px;
+    padding: 30px 0px;
+}
+
+.container-4 .mentor .right{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    justify-content: center;
+    width: 40%;
+}
+.container-4 .mentor .star{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.container-4 .mentor .bullet{
+    display: flex;
+    gap: 20px;
+}
+
+.container-4 .mentor .bullet p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.container-8{
+    /* background-color: #F72585; */
+    color: #fff;
+    width: 87%;
+}
+
+.container-8 .footer{
+    background-color: #021934;
+    display: flex;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+}
+
+.container-8 .footer .bg-kiri{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-8 .footer .bg-kiri .atas{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    color: #ffffff;
+}
+
+.container-8 .footer .bg-kiri .atas img{
+    color: #fff;
+}
+
+
+.container-8 .footer .bg-kanan{
+    display: flex;
+    width: 50%;
+    gap: 130px;
+}
+
+.container-8 .footer .bg-kanan .column{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-8 .footer .bg-kanan .column h3{
+    padding-bottom: 10px;
+}
+.container-8 .footer .bg-kanan .column a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 3px;
+}
+
+
+/* container-9 */
+.container-9{
+    width: 87%;
+    color: #fff;
+}
+.container-9 .footer-bawah{
+    background-color: #021934;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+}
+
+.container-9 .footer-bawah .column a{
+    text-decoration: none;
+    color: #fff;
+}
